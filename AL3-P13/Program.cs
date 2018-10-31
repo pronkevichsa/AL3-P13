@@ -14,7 +14,7 @@ namespace AL3_P13
             UniqueItem uI2 = new UniqueItem();
             Console.WriteLine(uI1.Id);
             Console.WriteLine(uI2.Id);
-            UniqueItem uI3 = new UniqueItem(200); //т.к. экземпляры класса уже созданы то игнорируем новую нумерацию
+            UniqueItem uI3 = new UniqueItem(200); //т.к. экземпляры класса уже созданы то игнорируем новую нумерацию 
             Console.WriteLine(uI3.Id);            
         }
     }    
